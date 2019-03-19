@@ -1,6 +1,6 @@
 # Version 0.1.1 is now available
 
-Version 0.1.1 of the Rebar addon is now available to download and install!
+Version 0.1.1 of the Rebar addon is now [available to download](https://github.com/ni/rebar/releases/tag/v0.1.1-alpha) and install!
 
 For the time being, I'm planning to use the following release strategy:
 * Time-based releases every six weeks
