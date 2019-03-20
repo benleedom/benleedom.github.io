@@ -5,11 +5,13 @@ Version 0.1.1 of the Rebar addon is now [available to download](https://github.c
 For the time being, I'm planning to use the following release strategy:
 * Time-based releases every six weeks
 * Incomplete features are available, but must be enabled with feature toggles
+  * [How to enable Rebar feature toggles](https://github.com/ni/rebar/wiki/EnableFeatureToggles)
 
 What's new in this release:
 * The Option and Cell data types present in 0.1.0 have been moved behind feature toggles
 * New incomplete features:
   * Rebar Target, which allows executing Rebar Functions from within the editor
+    * [Creating and running a function on the Rebar target](https://github.com/ni/rebar/wiki/CreateAndRunFunctionOnRebarTarget)
   * Output Node, for debug-printing values
   * Vectors and Slices (very incomplete)
   * Visualize Variable Identity (incomplete; allows coloring wires with unique colors per variable)
