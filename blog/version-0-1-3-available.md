@@ -8,11 +8,11 @@ Reminder that incomplete features must be enabled with feature toggles.
 What's new in this release:
 
 * The Option data type is now stable, so it no longer requires a feature toggle to enable.
-  * Added the None constructor node, which outputs Option<T>::None values. The output type of None is determined through type inference, so it generally must be combined with some other downstream node.
-  * Loop output tunnels that receive inputs of type T now output Option<T>; the output value will be Option<T>::Some(x), where x was the last value output, if the loop executes at least one iteration, and Option<T>::None otherwise.
+  * Added the None constructor node, which outputs Option&lt;T&gt;::None values. The output type of None is determined through type inference, so it generally must be combined with some other downstream node.
+  * Loop output tunnels that receive inputs of type T now output Option&lt;T&gt;; the output value will be Option&lt;T&gt;::Some(x), where x was the last value output, if the loop executes at least one iteration, and Option&lt;T&gt;::None otherwise.
 * Added the Modulus node for integer types.
 * Added comparison (Equal, Not Equal, Greater Than, Greater Than or Equal, Less Than, Less Than or Equal) for integer types.
-* The compiler now inserts Drop calls for types that require it: String and FileHandle (see below), Option<T> where T: Drop
+* The compiler now inserts Drop calls for types that require it: String and FileHandle (see below), Option&lt;T&gt; where T: Drop
 * Incomplete features:
   * The Rebar compile target now supports an LLVM-based backend; this will eventually replace the current backend, and some features below are only implemented on the LLVM backend.
   * String data type: 
