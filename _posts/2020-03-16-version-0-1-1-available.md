@@ -1,4 +1,10 @@
-# Version 0.1.1 is now available
+---
+layout: post
+title:  "Version 0.1.1 is now available"
+date:   2019-03-20 20:00:00 -0500
+categories: jekyll update
+permalink: /blog/version-0-1-1-available
+---
 
 Version 0.1.1 of the Rebar addon is now [available to download](https://github.com/ni/rebar/releases/tag/v0.1.1-alpha) and install!
 
