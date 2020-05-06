@@ -5,7 +5,7 @@ date:   2020-05-06 00:30:00 -0500
 categories: rebar
 ---
 
-Version 0.2.0 of the Rebar addon is now [available to download](...) and install! Note: starting with version 0.2.0, Rebar targets **[LabVIEW NXG 5.0](https://www.ni.com/en-us/shop/labview/labview-nxg.html)** (including [Community Edition](https://www.ni.com/en-us/support/downloads/software-products/download.labview-nxg-community.html#342195), which is free for non-commercial, non-academic use).
+Version 0.2.0 of the Rebar addon is now [available to download](https://github.com/rebarlang/rebar/releases/tag/v0.2.0-alpha) and install! Note: starting with version 0.2.0, Rebar targets **[LabVIEW NXG 5.0](https://www.ni.com/en-us/shop/labview/labview-nxg.html)** (including [Community Edition](https://www.ni.com/en-us/support/downloads/software-products/download.labview-nxg-community.html#342195), which is free for non-commercial, non-academic use).
 
 Reminder that incomplete features must generally be enabled with feature toggles.
 * [How to enable Rebar feature toggles](https://github.com/rebarlang/rebar/wiki/EnableFeatureToggles)
